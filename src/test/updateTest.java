@@ -17,8 +17,8 @@ public class updateTest {
         conn = DriverManager.getConnection(url, "root", "tizm**423");
 
         stmt = conn.createStatement();
-        String set_name = "¿Â¿Á«Â";
-        String name = "±Ë¿Á«Â";
+        String set_name = "Troy";
+        String name = "Destroy";
         String sql = "update table1 set name=\""+set_name+"\" where name=\""+name+"\"";
 
         stmt.executeUpdate(sql);

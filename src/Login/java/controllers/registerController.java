@@ -48,7 +48,7 @@ public class registerController {
 			try {
 				Stage primaryStage = new Stage();
 				Parent root = FXMLLoader.load(getClass().getResource("/Login/resources/view/login.fxml"));
-				primaryStage.setTitle("·Î±×ÀÎ");	
+				primaryStage.setTitle("Login");	
 				primaryStage.setScene(new Scene(root));
 				primaryStage.show();
 				Stage main=(Stage) id.getScene().getWindow();

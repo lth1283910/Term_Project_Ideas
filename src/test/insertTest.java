@@ -17,8 +17,8 @@ public class insertTest {
         conn = DriverManager.getConnection(url, "root", "tizm**423");
 
         stmt = conn.createStatement();
-        String name = "±Ë¿Á«Â";
-        String info = "∏∂ø’";
+        String name = "Troy";
+        String info = "Master";
         String sql = "Insert into table1 (name,info) values (\""+name+"\",\""+info+"\")";
 
         stmt.executeUpdate(sql);

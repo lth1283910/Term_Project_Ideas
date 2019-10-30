@@ -21,7 +21,7 @@ public class DBconnect {
     			"tizm**423");
             
     	if( con != null ) 
-    		System.out.println("DB 접속 성공");
+    		System.out.println("DB connect Success");
 	
 }
     

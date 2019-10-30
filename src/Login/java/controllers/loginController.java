@@ -50,7 +50,7 @@ public class loginController {
 		try {
 			Stage primaryStage = new Stage();
 			Parent root = FXMLLoader.load(getClass().getResource("/Login/resources/view/registeration.fxml"));
-			primaryStage.setTitle("회원가입");	
+			primaryStage.setTitle("Registration");	
 			primaryStage.setScene(new Scene(root));
 			primaryStage.show();
 			

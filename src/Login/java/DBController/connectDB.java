@@ -18,10 +18,10 @@ public class connectDB {
             stmt = conn.createStatement();
         }
         catch( ClassNotFoundException e){
-            System.out.println("드라이버 로딩 실패");
+            System.out.println("Driver Loading Failed");
         }
         catch( SQLException e){
-            System.out.println("에러 " + e);
+            System.out.println("Error " + e);
         }
 		
 		return stmt;

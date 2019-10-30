@@ -17,7 +17,7 @@ public class deleteTest {
         conn = DriverManager.getConnection(url, "root", "tizm**423");
 
         stmt = conn.createStatement();
-        String name = "±Ë¿Á«Â";
+        String name = "Troy";
         String sql = "delete from table1 where name=\""+name+"\"";
 
         stmt.executeUpdate(sql);
