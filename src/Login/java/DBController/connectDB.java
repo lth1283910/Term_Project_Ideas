@@ -11,7 +11,7 @@ public class connectDB {
 		Statement stmt = null;
 		try{
             Class.forName("org.mariadb.jdbc.Driver");
-
+            
             String url = "jdbc:mysql://localhost/mydb";
             conn = DriverManager.getConnection(url, "root", "tizm**423");
 
