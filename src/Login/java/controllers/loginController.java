@@ -54,6 +54,7 @@ public class loginController {
 			primaryStage.setScene(new Scene(root));
 			primaryStage.show();
 			
+			//로그인 창은 닫고 등록하는 gui를 띄운다.
 			Stage main=(Stage) signup_Button.getScene().getWindow();
 			main.close();
 		} catch(Exception e) {

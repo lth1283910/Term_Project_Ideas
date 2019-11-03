@@ -46,11 +46,13 @@ public class registerController {
 			registerStatus.setText("Welcome!");
 			register.registerClient(ID, PASS);
 			try {
+				//등록이 되었다면 다시 로그인 창을 띄운다. 등록창은 닫고.
 				Stage primaryStage = new Stage();
 				Parent root = FXMLLoader.load(getClass().getResource("/Login/resources/view/login.fxml"));
 				primaryStage.setTitle("Login");	
 				primaryStage.setScene(new Scene(root));
 				primaryStage.show();
+				
 				Stage main=(Stage) id.getScene().getWindow();
 				main.close();
 			} catch(Exception e) {
